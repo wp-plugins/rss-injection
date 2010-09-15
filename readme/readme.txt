@@ -1,5 +1,5 @@
 === RSS Injection ===
-Contributors: DCoda
+Contributors: dcoda
 Donate link: http://wordpress.dcoda.co.uk/donate/rss-injection/
 Tags: php5,post,rss,footer,header,content scrapers,added content
 Requires at least: 3.0.0
