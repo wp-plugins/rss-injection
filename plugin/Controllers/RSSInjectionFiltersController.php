@@ -11,14 +11,14 @@
  * $LastChangedRevision$
  * $LastChangedBy$
  */
-class RSSInjectionFiltersController extends DCode_Controller_Action_WP_Filter
+class RSSInjectionFiltersController extends d6vCode_Controller_Action_WP_Filter
 {
 
 	public function plugin_action_linksAction ( $links , $file )
 	{
 		if ($file != plugin_basename ( $this->application ()->filename () ))
 		{return $links;}
-		array_unshift ( $links , '<a href="plugins.php?page=DCode_Plugins_RSSInjection">About</a>' , '<a href="options-general.php?page=DCode_Settings_RSSInjection">Settings</a>' );
+		array_unshift ( $links , '<a href="plugins.php?page=d6vCode_Plugins_RSSInjection">About</a>' , '<a href="options-general.php?page=d6vCode_Settings_RSSInjection">Settings</a>' );
 		return $links;
 	}
 

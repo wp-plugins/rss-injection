@@ -11,7 +11,7 @@
  * $LastChangedRevision$
  * $LastChangedBy$
  */
-class RSSInjectionData extends DCode_Base
+class RSSInjectionData extends d6vCode_Base
 {
 
 	private function key ()

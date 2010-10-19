@@ -17,7 +17,7 @@
  * $LastChangedRevision$
  * $LastChangedBy$
  */
-$lib = dirname ( __FILE__ ) . '/library/DCode/WP/Plugin.php';
+$lib = dirname ( __FILE__ ) . '/library/d6vCode/WP/Plugin.php';
 /**
  * check to see if plugin is run from project folder or from parent folder IE as mu plugin.
  */
@@ -28,7 +28,7 @@ if (!file_exists ( $lib ))
 else
 {
 	require_once $lib;
-	class rssinjection extends DCode_WP_Plugin
+	class rssinjection extends d6vCode_WP_Plugin
 	{
 
 		public function __construct ( $filename )

@@ -11,7 +11,7 @@
  * $LastChangedRevision$
  * $LastChangedBy$
  */
-class PluginsRSSInjectionController extends DCode_Controller_Action_WP_AdminMenu {
+class PluginsRSSInjectionController extends d6vCode_Controller_Action_WP_AdminMenu {
 	public function AboutAction($content)
 	{
 		return $content.$this->showAbout();

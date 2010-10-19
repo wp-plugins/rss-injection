@@ -11,7 +11,7 @@
  * $LastChangedRevision$
  * $LastChangedBy$
  */
-class SettingsRSSInjectionController extends DCode_Controller_Action_WP_AdminMenu {
+class SettingsRSSInjectionController extends d6vCode_Controller_Action_WP_AdminMenu {
 	public function SettingsAction($content)
 	{
 		$dataObj = new RSSInjectionData(false);
