@@ -6,7 +6,7 @@
  * Description: Inject content into your RSS feed to entice people to subscribe or allow you to add a message so if the feed it aggregated onto another site it is at least attribute.
  * Author: DCoda
  * Author URI: http://www.dcoda.co.uk
- * Version: 1.0.11.21
+ * Version: 1.1.15.d6v
  * @package RSSSticky
  * @subpackage Plugin
  * @copyright DCoda Ltd

@@ -4,7 +4,7 @@ Donate link: http://wordpress.dcoda.co.uk/donate/rss-injection/
 Tags: php5,post,rss,footer,header,content scrapers,added content
 Requires at least: 3.0.0
 Tested up to: 3.0.1
-Stable tag: 1.0.11.21
+Stable tag: 1.1.15.d6v
 Inject content into your RSS feed to entice people to subscribe or allow you to add a message so if the feed it aggregated onto another site it is at least attribute.
 
 <!--
@@ -39,13 +39,17 @@ Another possible use is to add extra content to your feed to entice users to sub
 
 == Changelog ==
 
+= 1.1.15.d6v = 
+
++ update base library
+
 = 1.0.11.21 =
 Initial release specification:
 
-1. Allow addition of footer to post in rss.
-2. Allow addition of header to post in rss.
-3. Allow variables to be looked up and inserted at runtime.
-4. Addition of [else] tag.
++ Allow addition of footer to post in rss.
++ Allow addition of header to post in rss.
++ Allow variables to be looked up and inserted at runtime.
++ Addition of [else] tag.
 
 == Copyright ==
 

@@ -30,11 +30,11 @@ class RSSInjectionData extends d6vCode_Base
 	{
 		if($this->global)
 		{
-			$data = new WP_SiteMeta ( );
+			$data = new d6vCode_WP_SiteMeta ( );
 		}
 		else
 		{
-			$data = new WP_Options ( );
+			$data = new d6vCode_WP_Options ( );
 		}
 		if ($_SERVER ['REQUEST_METHOD'] == 'POST')
 		{
@@ -47,12 +47,12 @@ class RSSInjectionData extends d6vCode_Base
 	{
 		if($this->global)
 		{
-			$data = new WP_SiteMeta ( );
+			$data = new d6vCode_WP_SiteMeta ( );
 			$settings = $data->get ( $this->key () );
 		}
 		else
 		{
-			$data = new WP_Options ( );
+			$data = new d6vCode_WP_Options ( );
 			$settings = $data->get ( $this->key ());
 		}
 		$settings = (array)$settings;
