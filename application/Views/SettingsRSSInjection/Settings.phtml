@@ -1,0 +1,53 @@
+<?php
+/*
+$HeadURL$
+$LastChangedDate$
+$LastChangedRevision$
+$LastChangedBy$
+*/
+?>
+<form action=""
+	method="post">
+
+
+<div class="tablenav">
+
+
+<table class="widefat post fixed" cellspacing="0">
+	<thead>
+		<tr>
+			<th scope="col" class="manage-column" >Content <small>( May Contain HTML )</small></th>
+			<th scope="col" class="manage-column" style = 'border-left:1px solid #aaaaaa'>Help</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><b>Header</b><small></small><br/><textarea name='header' style='width:100%;height:200px;'><?php echo stripslashes($this->data['header']);?></textarea></td>
+			<td rowspan="3"  style = 'border-left:1px solid #aaaaaa'>
+			<p>There are a number of tags that can be used to lookup and insert specific values into the post, these are:<br/>
+			<b>[blog_name]</b>, <b>[blog_url]</b>, <b>[post_author]</b>, <b>[post_date]</b>, <b>[post_time]</b>, <b>[post_title]</b>, <b>[post_url]</b>
+			</p>
+			<p>
+			Here is an example of how to add a copyright message and link back to your post in your feed. This will at least show the origins of the post should someone be reposing you feed.<br/>
+			<code style='width:100%'>
+				&lt;a href='[post_url]'&gt;[post_title]&lt;/a&gt; by [post_author] &amp;copy;&lt;a href='[blog_url]'&gt;[blog_name]&lt;/a&gt;</code>  
+			</p>
+			<br/>
+			<p>There is one more tag, <b>[else]</b>. Everything before the <b>[else]</b> tag will appear in just the RSS feed, everything after will appear in just the post.</p>
+			<p>
+			Here is an example of how to offer extra content to those who subscribe to your feed, and advetise this in the post.<br/>
+			<code style='width:100%'>&lt;a href='http://example.net/ebook.pdf'&gt;Download a free EBook&lt;/a&gt;[else]&lt;a href='http://example.net/feed.xml'&gt;Subscribe&lt;/a&gt; and receive a free EBook.</code>  
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td><b>Footer</b><br/><textarea name='footer' style='width:100%;height:200px;'><?php echo stripslashes($this->data['footer']);?></textarea></td>
+		</tr>
+	</tbody>
+</table>
+<input type='submit' class='button' value='Apply' />
+
+</div>
+</form>
+
+
