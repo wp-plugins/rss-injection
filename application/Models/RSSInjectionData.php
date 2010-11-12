@@ -1,17 +1,5 @@
 <?php
-/**
- * Model for the RSSINjection data
- * @package RSSInjection
- * @subpackage RSSInjection Data
- * @copyright DCoda Ltd
- * @author DCoda Ltd
- * @license http://www.gnu.org/licenses/gpl.txt
- * $HeadURL$
- * $LastChangedDate$
- * $LastChangedRevision$
- * $LastChangedBy$
- */
-class RSSInjectionData extends d6vCode_Base
+class RSSInjectionData extends b3v_Base
 {
 
 	private function key ()
@@ -30,11 +18,11 @@ class RSSInjectionData extends d6vCode_Base
 	{
 		if($this->global)
 		{
-			$data = new d6vCode_WP_SiteMeta ( );
+			$data = new w3v_TableSiteMeta ( );
 		}
 		else
 		{
-			$data = new d6vCode_WP_Options ( );
+			$data = new w3v_TableOptions ( );
 		}
 		if ($_SERVER ['REQUEST_METHOD'] == 'POST')
 		{
@@ -47,12 +35,12 @@ class RSSInjectionData extends d6vCode_Base
 	{
 		if($this->global)
 		{
-			$data = new d6vCode_WP_SiteMeta ( );
+			$data = new w3v_TableSiteMeta ( );
 			$settings = $data->get ( $this->key () );
 		}
 		else
 		{
-			$data = new d6vCode_WP_Options ( );
+			$data = new w3v_TableOptions ( );
 			$settings = $data->get ( $this->key ());
 		}
 		$settings = (array)$settings;
