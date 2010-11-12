@@ -2,9 +2,9 @@
 class SettingsRSSInjectionController extends w3v_Controller_Action_AdminMenu {
 	public function SettingsAction($content)
 	{
-		$dataObj = new RSSInjectionData(false);
+		$dataObj = new RSSInjectionData();
 		$this->view->data = $dataObj->post();
-		return $content;
+		return $content . $this->updated();
 	}
 }
 		

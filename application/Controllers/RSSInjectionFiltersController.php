@@ -5,7 +5,7 @@ class RSSInjectionFiltersController extends w3v_Controller_Action_Filter
 	{
 		if (get_post_type() == 'post')
 		{
-			$dataObj = new RSSInjectionData ( false );
+			$dataObj = new RSSInjectionData ( );
 			$data = $dataObj->get ();
 			$header = $this->dcode ( stripslashes($data ['header']) );
 			$footer = $this->dcode ( stripslashes($data ['footer']) );
@@ -14,7 +14,7 @@ class RSSInjectionFiltersController extends w3v_Controller_Action_Filter
 		return $content;
 	}
 
-	public function dcode ( $string )
+	private function dcode ( $string )
 	{
 		$a = explode ( '[else]' , $string );
 		$rss = '';
