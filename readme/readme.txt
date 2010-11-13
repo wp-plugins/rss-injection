@@ -45,6 +45,8 @@ The settings screen contain inbuilt help boxes however you can post support your
 
 = 1.2.0 =
 
++ upgraded options data screens to use library functions.
+
 = 1.1.15.d6v = 
 
 + update base library
