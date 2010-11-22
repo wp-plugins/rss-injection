@@ -1,5 +1,5 @@
 <?php
-class SettingsRSSInjectionController extends w6v_Controller_Action_AdminMenu {
+class SettingsRSSInjectionController extends w7v_Controller_Action_AdminMenu {
 	public function SettingsAction($content)
 	{
 		$dataObj = new RSSInjectionData();
