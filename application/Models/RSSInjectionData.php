@@ -1,5 +1,5 @@
 <?php
-class RSSInjectionData extends w3v_Table_Options {
+class RSSInjectionData extends w6v_Table_Options {
 	public function defaults()
 	{
 		return array(

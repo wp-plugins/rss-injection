@@ -1,5 +1,5 @@
 <?php
-class RSSInjectionFiltersController extends w3v_Controller_Action_Filter
+class RSSInjectionFiltersController extends w6v_Controller_Action_Filter
 {
 	public function the_contentAction ( $content )
 	{
