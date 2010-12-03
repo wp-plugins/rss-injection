@@ -7,8 +7,8 @@ class RSSInjectionFiltersController extends w7v_Controller_Action_Filter
 		{
 			$dataObj = new RSSInjectionData ( );
 			$data = $dataObj->get ();
-			$header = $this->dcode ( stripslashes($data ['header']) );
-			$footer = $this->dcode ( stripslashes($data ['footer']) );
+			$header = $this->dcode ( $data ['header'] );
+			$footer = $this->dcode ( $data ['footer'] );
 			$content = $header . $content . $footer;
 		}
 		return $content;

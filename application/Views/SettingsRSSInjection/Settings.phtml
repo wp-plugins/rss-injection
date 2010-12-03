@@ -7,10 +7,10 @@
 	</thead>
 	<tbody>
 		<tr class='<?php echo $this->alternate();?>'>
-			<td><b>Header</b><small></small><br/><textarea name='header' style='width:100%;height:200px;'><?php echo stripslashes($this->data['header']);?></textarea></td>
+			<td><b>Header</b><small></small><br/><textarea name='header' style='width:100%;height:200px;'><?php echo $this->data['header'];?></textarea></td>
 		</tr>
 		<tr class='<?php echo $this->alternate();?>'>
-			<td><b>Footer</b><br/><textarea name='footer' style='width:100%;height:200px;'><?php echo stripslashes($this->data['footer']);?></textarea></td>
+			<td><b>Footer</b><br/><textarea name='footer' style='width:100%;height:200px;'><?php echo $this->data['footer'];?></textarea></td>
 		</tr>
 	</tbody>
 </table>
