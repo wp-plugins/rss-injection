@@ -46,6 +46,13 @@ The settings screen contain inbuilt help boxes however you can post support your
 3. Sample feed output.
 == Changelog ==
 
+= 1.2.2 =
+
++ update with all library function changes.
++ moved as much styling from page into css as possible
++ solved problem with fnmatch not being available in php for windows platforms will version 5.3
++ improved support of special characters
+
 = 1.2.0 =
 
 + upgraded options data screens to use library functions.
