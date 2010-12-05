@@ -1,0 +1,14 @@
+##
+# Allow access to Redactor public files 
+# @package Redactor
+# @subpackage Redactor htaccess
+# @copyright DCoda Ltd
+# @author DCoda Ltd
+# @license http://www.gnu.org/licenses/gpl.txt
+# $HeadURL: http://plugins.svn.wordpress.org/rss-injection/trunk/application/public/.htaccess $
+# $LastChangedDate: 2010-10-19 16:28:19 +0100 (Tue, 19 Oct 2010) $
+# $LastChangedRevision: 301747 $
+# $LastChangedBy: dcoda $
+##RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule . - [L]
