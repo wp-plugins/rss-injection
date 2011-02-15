@@ -1,4 +1,4 @@
 <?php
-class SandBoxRSSInjectionController extends w14v_Controller_Action_AdminMenu {
+class SandBoxRSSInjectionController extends wv15v_Controller_Action_AdminMenu {
 }
 		
