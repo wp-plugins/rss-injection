@@ -1,5 +1,5 @@
 <?php
-class RSSInjectionActionsController extends w8v_Controller_Action_Action
+class RSSInjectionActionsController extends w14v_Controller_Action_Action
 {
 }
 
