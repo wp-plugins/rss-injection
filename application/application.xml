@@ -2,7 +2,7 @@
 <settings>
 	<name>RSSInjection</name>
 	<donate_link>http://wordpress.dcoda.co.uk/donate/rss-injection/</donate_link>
-	<version>1.3.0</version>
+	<version>1.3.0a</version>
 	<short_desc>Inject content into your RSS feed to entice people to subscribe or allow you to add a message so if the feed it aggregated onto another site it is at least attribute.</short_desc>
 	<tags>post</tags>
 	<tags>seo</tags>
