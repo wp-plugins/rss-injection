@@ -5,8 +5,7 @@ class RSSInjectionFiltersController extends wv15v_Controller_Action_Filter
 	{
 		if (get_post_type() == 'post')
 		{
-			$dataObj = new RSSInjectionData ( );
-			$data = $dataObj->get ();
+			$data = $this->settings()->options;
 			$header = $this->dcode ( $data ['header'] );
 			$footer = $this->dcode ( $data ['footer'] );
 			$content = $header . $content . $footer;
