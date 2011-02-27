@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <settings>
-	<name>RSSInjection</name>
-	<donate_link>http://wordpress.dcoda.co.uk/donate/rss-injection/</donate_link>
-	<version>1.3.0b</version>
-	<short_desc>Inject content into your RSS feed to entice people to subscribe or allow you to add a message so if the feed it aggregated onto another site it is at least attribute.</short_desc>
-	<tags>post</tags>
-	<tags>seo</tags>
-	<tags>added content</tags>
-	<tags>content scrapers</tags>
-	<tags>header</tags>
-	<tags>footer</tags>
-	<tags>rss</tags>
-	<wpslug>rss-injection</wpslug>
-	<slug>rssinjection</slug>
-	<stable_tag>1.2.3</stable_tag>
-	<uri>http://wordpress.org/extend/plugins/rss-injection/</uri>
-	<options>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<application><name>RSSInjection</name><donate_link>http://wordpress.dcoda.co.uk/donate/rss-injection/</donate_link><version>1.3.0b</version><short_desc>Inject content into your RSS feed to entice people to subscribe or allow you to add a message so if the feed it aggregated onto another site it is at least attribute.</short_desc><tags>post</tags><tags>seo</tags><tags>added content</tags><tags>content scrapers</tags><tags>header</tags><tags>footer</tags><tags>rss</tags><wpslug>rss-injection</wpslug><slug>rssinjection</slug><stable_tag>1.2.3</stable_tag><uri>http://wordpress.org/extend/plugins/rss-injection/</uri><options>
 		<header></header>
-		<footer></footer></options>
-	<handler>RSSInjectionSettings</handler></settings>
+		<footer></footer></options><handler>RSSInjectionSettings</handler></application></settings>
