@@ -1,5 +1,5 @@
 <?php
-class rRSSInjectionFiltersController extends wv15v_Controller_Action_Filter
+class rrsInjectionfilterscontroller extends wv15v_Controller_Action_Filter
 {
 	public function the_contentAction ( $content )
 	{
