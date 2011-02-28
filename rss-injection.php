@@ -6,6 +6,6 @@ Author: dcoda
 Author URI: http://dcoda.co.uk
 Version: 1.3.0&beta;
  */ 
-require_once  dirname ( __FILE__ ) . '/library/wordpress/wv15v/Application.php';
+require_once  dirname ( __FILE__ ) . '/library/wordpress/wv15v/application.php';
 
 new wv15v_application ( __FILE__,array(),'rssinjectionsettings' );
