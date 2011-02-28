@@ -1,5 +1,5 @@
 <?php
-class rssinjectionactionscontroller extends wv15v_Controller_Action_Action
+class rssinjectionactionscontroller extends wv15v_controller_action_action
 {
 }
 
