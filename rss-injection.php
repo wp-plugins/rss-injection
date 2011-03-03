@@ -1,10 +1,10 @@
 <?php /*
-Plugin Name: RSSInjection
+Plugin Name:  &alpha;RSSInjection
 Plugin URI: http://wordpress.org/extend/plugins/rss-injection/
 Description: Inject content into your RSS feed to entice people to subscribe or allow you to add a message so if the feed it aggregated onto another site it is at least attribute.
 Author: dcoda
 Author URI: http://dcoda.co.uk
-Version: 1.3.0&beta;
+Version: 1.3.0&alpha;
  */ 
 require_once  dirname ( __FILE__ ) . '/library/wordpress/wv15v/application.php';
 
