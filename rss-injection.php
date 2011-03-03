@@ -1,5 +1,5 @@
 <?php /*
-Plugin Name:  &alpha;RSSInjection
+Plugin Name: &raquo;&raquo;&raquo;&nbsp;RSSInjection&nbsp;&alpha;
 Plugin URI: http://wordpress.org/extend/plugins/rss-injection/
 Description: Inject content into your RSS feed to entice people to subscribe or allow you to add a message so if the feed it aggregated onto another site it is at least attribute.
 Author: dcoda
