@@ -1,5 +1,5 @@
 <?php
-class rrsinjectionfilterscontroller extends wv21v_controller_action_filter
+class rrsinjectionfilters extends wv21v_controller_action_filter
 {
 	public function the_contentAction ( $content )
 	{
