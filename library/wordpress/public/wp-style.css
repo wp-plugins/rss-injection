@@ -1,0 +1,40 @@
+.v21v {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+.v21v .err {
+	background-color: #FFEEEB;
+	border: 1px solid #D41700;
+	padding: 5px;
+	margin: 0px;
+}
+
+.v21v div {
+	padding: 0;
+}
+
+.v21v .postbox {
+	
+}
+
+.v21v h3 {
+	margin: 0;
+	padding: 5px;
+}
+
+.v21v .inside {
+	padding: 5px;
+}
+
+.v21v .inside ul {
+	margin-left: 10px;
+	list-style-type: circle;
+	list-style-position: inside;
+}
+
+.v21v .inside ol {
+	margin-left: 10px;
+	list-style-position: inside;
+}
