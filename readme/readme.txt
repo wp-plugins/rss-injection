@@ -1,6 +1,6 @@
 === RSSInjection ===
 Contributors: dcoda
-Donate link: http://wordpress.dcoda.co.uk/donate/rss-injection/
+Donate link: http://dcoda.co.uk/wordpress/donate/rss-injection/
 Tags: added content, content scrapers, footer, header, php5.2, post, rss, seo
 Requires at least: 3.0.0
 Tested up to: 3.1
