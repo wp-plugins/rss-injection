@@ -29,8 +29,9 @@ If you require a custom plugin you can contact us <a href="http://dcoda.co.uk/co
 1. Disable and delete any old versions of the plugin.
 2. Copy the plugin folder to `wp-content/plugins`
 3. Log in to WordPress as an administrator.
-4. Enable the plugin in the `Plugins` admin screen.
-5. Visit the admin page `Plugins->Settings->RSSInjection to configure and get further help.
+4. Enable the plugin in the `Plugins` admin panel.
+5. Click the 'Getting started' link that now appears next to the plugin.
+
 == Frequently Asked Questions ==
 
 = Where can I get more help =
@@ -42,34 +43,6 @@ The settings screen contain inbuilt help boxes however you can post support your
 1. Sample options screen.
 2. Sample posts output.
 3. Sample feed output.
-== Changelog ==
-
-= 1.2.2 =
-
-+ update with all library function changes.
-+ moved as much styling from page into css as possible
-+ solved problem with fnmatch not being available in php for windows platforms will version 5.3
-+ improved support of special characters
-
-= 1.2.0 =
-
-+ upgraded options data screens to use library functions.
-
-= 1.1.15.d6v = 
-
-+ update base library
-
-= 1.0.11.21 =
-
-Initial release specification:
-
-+ Allow addition of footer to post in RSS.
-+ Allow addition of header to post in RSS.
-+ Allow variables to be looked up and inserted at runtime.
-+ Addition of [else] tag.
-
-== Upgrade Notice ==
-
 
 == Copyright ==
 

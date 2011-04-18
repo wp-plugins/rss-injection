@@ -1,5 +1,13 @@
 <?php
 class settingsrssinjection extends wv26v_controller_action_adminmenu {
+	public function getting_startedAction($content) {
+		return $content;
+	}
+	public function settingsActionMeta($return)
+	{
+		$return['priority'] = -1;
+		return $return;
+	}
 	public function settingsAction($content)
 	{
 		$this->view->data = $this->settings()->post('options');

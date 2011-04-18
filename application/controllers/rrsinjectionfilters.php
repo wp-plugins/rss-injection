@@ -1,6 +1,13 @@
 <?php
 class rrsinjectionfilters extends wv26v_controller_action_filter
 {
+	protected function plugin_links()
+	{
+		$return = parent::plugin_links();
+		$menu = $this->find_submenu('Settings',$this->settings()->application['name']);
+		$return['gettingstarted'] = array('url'=>$menu['menu'][2].'?page='.$menu[2].'&page2=getting_started','text'=>'Getting Started');
+		return $return;
+	}
 	public function the_contentAction ( $content )
 	{
 		if (get_post_type() == 'post')
