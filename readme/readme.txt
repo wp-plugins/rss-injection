@@ -4,7 +4,7 @@ Donate link: http://dcoda.co.uk/wordpress/donate/rss-injection/
 Tags: added content, content scrapers, footer, header, php5.2, post, rss, seo
 Requires at least: 3.0.0
 Tested up to: 3.1
-Stable tag: 1.4.0
+Stable tag: 1.5.0.26
 Inject content into your RSS feed to entice people to subscribe or allow you to add a message so if the feed it aggregated onto another site it is at least attribute.
 == Description ==
 
