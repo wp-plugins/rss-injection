@@ -8,4 +8,4 @@ Version: 1.5.0.27
  */ 
 require_once  dirname ( __FILE__ ) . '/library/wordpress/application.php';
 
-new wv27v_application ( __FILE__,array(),'rssinjectionsettings' );
+new wv28v_application ( __FILE__,array(),'rssinjectionsettings' );
