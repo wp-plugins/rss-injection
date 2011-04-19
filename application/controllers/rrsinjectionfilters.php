@@ -1,5 +1,5 @@
 <?php
-class rrsinjectionfilters extends wv26v_controller_action_filter
+class rrsinjectionfilters extends wv27v_controller_action_filter
 {
 	protected function plugin_links()
 	{
