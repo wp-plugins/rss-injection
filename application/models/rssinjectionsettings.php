@@ -1,5 +1,5 @@
 <?php
-class rssinjectionsettings extends wv28v_settings {
+class rssinjectionsettings extends wv30v_settings {
 	public function __construct($application)
 	{
 		parent::__construct($application);

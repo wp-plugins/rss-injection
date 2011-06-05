@@ -7,4 +7,4 @@ Author URI: http://dcoda.co.uk
 Version: 1.5.28
  */ 
 require_once  dirname ( __FILE__ ) . '/library/wordpress/application.php';
-$rssinjection = new wv28v_application ( __FILE__,array(),'rssinjectionsettings' );
+$rssinjection = new wv30v_application ( __FILE__,array(),'rssinjectionsettings' );
