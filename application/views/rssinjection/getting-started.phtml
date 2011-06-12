@@ -1,6 +1,40 @@
 <ol>
-	<li>Visit 'Settings->RSSInjection->Settings' in your admin panel.</li>
-	<li>Configure the header and footer you wish to be displayed on all your posts in your RSS feed.</li>
+	<li>Visit 'Settings&raquo;RSSInjection&raquo;Settings' in your admin
+	panel.</li>
+	<li>Configure the header and footer you wish to be displayed on all
+	your posts in your RSS feed.</li>
 	<li>Click Apply.</li>
-	<li>If you want the changes to be immediate you must clear the cache WordPress has of the RSS feed, to do this choose any post and update.</li>
+	<li>If you want the changes to be immediate you must clear the cache
+	WordPress has of the RSS feed, to do this choose any post and update.</li>
 </ol>
+<p>Note:</p>
+<ul>
+	<li>There are a number of tags that can be used to lookup and insert
+	specific values into the post, these are:
+	<ul>
+		<li>[blog_name]</li>
+		<li>[blog_url]</li>
+		<li>[post_author]</li>
+		<li>[post_date]</li>
+		<li>[post_time]</li>
+		<li>[post_title]</li>
+		<li>[post_url]</li>
+	</ul>
+	</li>
+	<li>Here is an example of how to add a copyright message and link back
+	to your post in your feed. This will at least show the origins of the
+	post should someone be reposing you feed.<br />
+	<code style='width: 100%'> &lt;a
+	href='[post_url]'&gt;[post_title]&lt;/a&gt; by [post_author]
+	&amp;copy;&lt;a href='[blog_url]'&gt;[blog_name]&lt;/a&gt;</code></li>
+	<li>There is one more tag, <b>[else]</b>. Everything before the <b>[else]</b>
+	tag will appear in just the RSS feed, everything after will appear in
+	just the post.</li>
+	<li>Here is an example of how to offer extra content to those who
+	subscribe to your feed, and advetise this in the post.<br />
+	<code style='width: 100%'>&lt;a
+	href='http://example.net/ebook.pdf'&gt;Download a free
+	EBook&lt;/a&gt;[else]&lt;a
+	href='http://example.net/feed.xml'&gt;Subscribe&lt;/a&gt; and receive a
+	free EBook.</code></li>
+</ul>
