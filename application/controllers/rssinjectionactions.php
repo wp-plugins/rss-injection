@@ -1,5 +1,5 @@
 <?php
-class rssinjectionactions extends wv30v_controller_action {
+class rssinjectionactions extends wv30v_action {
 	public function rssinjectionWPmenuMeta($return) {
 		$return ['title'] = $this->settings ()->application ['name'];
 		return $return;
