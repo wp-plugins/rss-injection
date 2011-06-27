@@ -1,17 +1,17 @@
 <?php
-class rssinjectionactions extends wv30v_action {
+class rssinjectionactions extends wv31v_action {
 	public function rssinjectionWPmenuMeta($return) {
 		$return ['title'] = $this->settings ()->application ['name'];
 		return $return;
 	}
 	public function getting_startedActionMeta($return) {
 		$return ['link_name'] = $return ['title'];
-		$return ['classes'] [] = 'v30v_info';
+		$return ['classes'] [] = 'v31v_info';
 		return $return;
 	}
 	public function settingsActionMeta($return) {
 		$return ['link_name'] = $return ['title'];
-		$return ['classes'] [] = 'v30v_settings';
+		$return ['classes'] [] = 'v31v_settings';
 		$return ['priority'] = - 1;
 		return $return;
 	}
