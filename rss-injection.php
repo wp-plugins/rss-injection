@@ -6,5 +6,5 @@ Author: dcoda
 Author URI: 
 Version: 1.5.31
  */ 
-require_once  dirname ( __FILE__ ) . '/application/rssinjectionapp.php';
-new rssinjectionapp ( __FILE__);
+require_once  dirname ( __FILE__ ) . '//library/wordpress/application.php';
+new wv31v_application ( __FILE__);

@@ -1,7 +1,7 @@
 <?php
 class rssinjectionactions extends wv31v_action {
 	public function rssinjectionWPmenuMeta($return) {
-		$return ['title'] = $this->settings ()->application ['name'];
+		$return ['title'] = $this->application()-> name;
 		return $return;
 	}
 	public function getting_startedActionMeta($return) {
@@ -16,7 +16,7 @@ class rssinjectionactions extends wv31v_action {
 		return $return;
 	}
 	public function settingsAction() {
-		$this->view->data = $this->settings ()->post ( 'options' );
+		$this->view->data = $this->application()->data ()->post ( 'options' );
 	}
 	public function the_contentWPfilter($content) {
 		if (get_post_type () == 'post') {
