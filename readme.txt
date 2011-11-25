@@ -1,2 +1,2 @@
 === RSSInjection ===
-Stable tag: 1.5.28
+Stable tag: 1.5.40
