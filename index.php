@@ -1,10 +1,10 @@
 <?php /*
-Plugin Name: RSSInjection
+Plugin Name: RSSInjection ( BETA )
 Plugin URI: http://redactor.dcoda.co.uk/donate/
 Description: Inject content into your RSS feed to entice people to subscribe or allow you to add a message so if the feed it aggregated onto another site it is at least attribute.
 Author: dcoda
 Author URI: 
-Version: 2.2.43
+Version: 3.2.43.&beta;
 License: GPLv2 or later
 */
 @require_once  dirname ( __FILE__ ) . '/library/wordpress/application.php';
