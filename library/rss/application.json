@@ -1,0 +1,19 @@
+{
+	"version":"3.2",
+	"status":"release",
+	"wordpress":
+	{
+		"tags":
+		[
+			"post",
+			"seo",
+			"added content",
+			"content scrapers",
+			"header",
+			"footer",
+			"rss"
+		]
+	},
+	"folders" : {"r":"library/rss"},
+	"priority": 102
+}
