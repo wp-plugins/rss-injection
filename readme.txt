@@ -1,10 +1,10 @@
 === RSSInjection ===
 Contributors: dcoda
 Donate link: http://rssinjection.dcoda.co.uk/donate/
-Stable tag: 1.5.28
+Stable tag: 3.2.43
 Tags: php5.2, post, seo, added content, content scrapers, header, footer, rss
 Requires at least: 3.0.0
-Tested up to: 3.2.1
+Tested up to: 3.3
 Inject content into your RSS feed to entice people to subscribe or allow you to add a message so if the feed it aggregated onto another site it is at least attribute.
 == Description ==
 This plugin is only supported on PHP 5.2 or greater.
