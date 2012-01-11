@@ -1,0 +1,7 @@
+{
+	"options":
+	{
+		"header":"<!-- this will appear at the top of the post -->",
+		"footer":"<!-- this will appear at the bottom of the post -->"
+	}
+}
