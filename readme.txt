@@ -1,18 +1,16 @@
 === RSSInjection ===
 Contributors: dcoda
 Donate link: http://rssinjection.dcoda.co.uk/donate/
-Stable tag: 3.2.43
-Tags: php5.2, post, seo, added content, content scrapers, header, footer, rss
+Stable tag: 3.2.45
+Tags: post, seo, added content, content scrapers, header, footer, rss
 Requires at least: 3.0.0
-Tested up to: 3.3
+Tested up to: 3.3.1
 Inject content into your RSS feed to entice people to subscribe or allow you to add a message so if the feed it aggregated onto another site it is at least attribute.
 == Description ==
 This plugin is only supported on PHP 5.2 or greater.
 
 <!--description-->
-RSSInjection allows you to modify the post for your RSS feed.
-You may be able think of you own reasons for doing this, but it was originally designed to add a copyright message and link to the feed to show the posts origins should a blog scraper republish your feed on their own blog.   
-Another possible use is to add extra content to your feed to entice users to subscribe, which this is mind you can now add a message that will only display in the blog to promote this offer.
+SurveyMe is an easy to use and easy to modify survey tool for WordPress. Written to be easy to use to none coders.
 <!--description-->
 
 If you are having trouble and cannot find the answers in the <a href="http://rssinjection.dcoda.co.uk/help/faq/">FAQ</a> you can post your support questions to the <a href = "http://wordpress.org/tags/rss-injection">WordPress Support Forum</a>
@@ -33,7 +31,7 @@ For frequently asked questions and help click [here](http://rssinjection.dcoda.c
 
 (c) Copyright DCoda Limited, 2007 -, All Rights Reserved.
 
-This code is released under the GPL license version 2 or later, available here:
+This code is released under the GPL license version 2, available here:
 
 [http://www.gnu.org/licenses/gpl.txt](http://www.gnu.org/licenses/gpl.txt)
 
