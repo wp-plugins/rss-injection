@@ -1,5 +1,5 @@
 <?php
-class rssinjection_filters extends wv45v_action {
+class rssinjection_filters extends wv46v_action {
 	public function the_contentWPfilter($content) {
 		if (get_post_type () == 'post') {
 			$data = $this->data ()->options;

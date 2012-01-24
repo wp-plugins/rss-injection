@@ -1,5 +1,5 @@
 <?php
-class rssinjection_dashboard extends wv45v_action {
+class rssinjection_dashboard extends wv46v_action {
 	public function rssinjectionWPmenuMeta($return) {
 		$return ['title'] = $this->application()-> name;
 		$return ['slug'] = $this->application()-> slug;
@@ -7,7 +7,7 @@ class rssinjection_dashboard extends wv45v_action {
 	}
 	public function settingsActionMeta($return) {
 		$return ['link_name'] = $return ['title'];
-		$return ['classes'] [] = 'v45v_16x16_settings';
+		$return ['classes'] [] = 'v46v_16x16_settings';
 		$return ['priority'] = - 1;
 		return $return;
 	}
