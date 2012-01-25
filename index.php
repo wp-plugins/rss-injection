@@ -4,6 +4,6 @@ Plugin URI: http://redactor.dcoda.co.uk/donate/
 Description: Inject content into your RSS feed to entice people to subscribe or allow you to add a message so if the feed it aggregated onto another site it is at least attribute.
 Author: dcoda
 Author URI: 
-Version: 3.2.45
+Version: 3.2.46
 License: GPLv2 or later
 */
