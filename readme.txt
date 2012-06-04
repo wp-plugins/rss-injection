@@ -1,7 +1,7 @@
 === RSSInjection ===
 Contributors: dcoda
 Donate link: http://rssinjection.dcoda.co.uk/donate/
-Stable tag: 3.2.47
+Stable tag: 3.2.48f
 Tags: post, seo, added content, content scrapers, header, footer, rss
 Requires at least: 3.0.0
 Tested up to: 3.3.1
