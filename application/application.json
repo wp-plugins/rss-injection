@@ -1,0 +1,36 @@
+{
+	"version":"3.2",
+	"status":"release",
+	"name":"RSSInjection",
+	"slug":"rssinjection",
+	"wordpress":
+	{
+		"tags":
+		[
+			"post",
+			"seo",
+			"added content",
+			"content scrapers",
+			"header",
+			"footer",
+			"rss"
+		],
+		"uri":"http://redactor.dcoda.co.uk/donate/",
+		"wpslug":"rss-injection",
+		"stable_tag":"3.2.46",
+		"donate_link":"http://rssinjection.dcoda.co.uk/donate/",
+		"short_desc":"Inject content into your RSS feed to entice people to subscribe or allow you to add a message so if the feed it aggregated onto another site it is at least attribute."
+	},
+	"help_meta":
+	{
+		"gettingstarted":
+		{
+			"url":"http://rssinjection.dcoda.co.uk/help/"
+		},
+		"settings":
+		{
+			"url":"http://rssinjection.dcoda.co.uk/help/settings"
+		}
+	}
+
+}

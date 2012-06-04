@@ -1,0 +1,16 @@
+<table class="widefat" cellspacing="0">
+	<thead>
+		<tr>
+			<th scope="col" class="manage-column" >Content <small>( May Contain HTML )</small></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr class='<?php echo $this->alternate();?>'>
+			<td><b>Header</b><small></small><br/><textarea name='options[header]' style='width:100%;height:150px;'><?php echo $this->data['header'];?></textarea></td>
+		</tr>
+		<tr class='<?php echo $this->alternate();?>'>
+			<td><b>Footer</b><br/><textarea name='options[footer]' style='width:100%;height:150px;'><?php echo $this->data['footer'];?></textarea></td>
+		</tr>
+	</tbody>
+</table>
+<input type='submit' class='button' value='Apply' />
